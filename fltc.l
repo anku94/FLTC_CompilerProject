@@ -19,7 +19,7 @@ ID [a-zA_Z_][a-zA-Z0-9_]*
 %%
 
 {whitespace}		{  }
-"\n"			{}
+"\n"			{ count++; }
 
 "class"			{ return CLASS; }
 "main"			{ return MAIN; }

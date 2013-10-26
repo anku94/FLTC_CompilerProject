@@ -79,14 +79,15 @@ LITERAL: BOOL_LIT
        ;
 
 %%
-extern int yy_flex_debug;
+extern int count;
 int main(void){
 	//yy_flex_debug = 1;
 	//yydebug = 1;
+	count = 1;
 	yyparse();
 	return 0;
 }
 int yyerror(const char *s){
-	printf("Error encountered %s\n", s);
+	printf("Error encountered at line %d: %s\n", count, s);
 	return 0;
 }

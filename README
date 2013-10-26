@@ -7,3 +7,10 @@ Ankush Jain
 -----------
 
 Description: This parser, created using Flex and Bison validates the syntax of a Flat Tiny C program passed via STDIN
+
+Usage:
+
+- Compile by typing 'make'
+- Run
+	./parser < testCase
+- Sample test cases (tc_1 to tc_6) and a wrong testcase (wrong_tc7) have been included
