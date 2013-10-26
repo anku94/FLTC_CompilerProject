@@ -13,4 +13,4 @@ Usage:
 - Compile by typing 'make'
 - Run
 	./parser < testCase
-- Sample test cases (tc_1 to tc_6) and a wrong testcase (wrong_tc7) have been included
+- Sample test cases (tc_1 to tc_3) and a wrong testcase (wrong_tc) have been included
