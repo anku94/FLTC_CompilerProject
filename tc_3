@@ -1,0 +1,8 @@
+class main{
+label:	b=3+4/5-2*4;
+	read(a[5]);
+ans:	print("%d",b);
+	if(23/34==23 || vamsi == "kjeri" && sd!='d' || 45 >=34 && 334 <= 34 || 34> 45 || 12 < 23) then goto label;
+	read(hgy[234]);
+	goto kjh;
+}

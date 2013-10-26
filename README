@@ -1,0 +1,9 @@
+Flat Tiny C Parser
+=================
+
+Ankush Jain
+-----------
+201101010
+-----------
+
+Description: This parser, created using Flex and Bison validates the syntax of a Flat Tiny C program passed via STDIN
